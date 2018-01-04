@@ -7,6 +7,6 @@ class HelloWorldKtTest{
 
     @Test
     fun `hello should salute whoever I pass in`() {
-        assertThat(hello("me")).contains("hello").contains("m2")
+        assertThat(hello("me")).contains("hello").contains("me")
     }
 }
